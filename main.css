@@ -3,12 +3,22 @@
 }
 
 #canvas {
+    
+    
   width: 300px;
   height: 300px;
   background-color: ivory;
-  margin: 0 auto;
+margin: 0 auto;
+
   box-shadow: 15px 15px 10px gray;
+  background-color: ivory;
 }
+
+/*
+Emlékeztető: a margót rövidítésben (shorthand) is megadhatod. A margin: 0 auto; esetén az első érték a felső és alsó, a második érték a két oldalsó margó értéke lesz. Az automatikus két oldalsó margó azt mondja a böngészőnek, hogy még nem tudjuk mennyi legyen a pontos érték, de legyen a kettő egyenlő. Így a tartalom középre kerül.
+
+Az első érték (0) a felső és alsó margót határozza meg. A második érték (auto) a bal és jobb oldali margót határozza meg, jelezve a böngésző számára, hogy az értékük legyen azonos.
+*/
 
 #first-row {
   height: 75%;
@@ -21,6 +31,55 @@
   width: 75%;
 }
 
+/*
+A #first-row tehát a #canvas gyermek eleme, annak pedig megadtad a fix méretét. Ha a #canvas szélessége 500px, akkor a #first-row is pontosan ilyen széles lesz. Ha a #canvas 500px magas, akkor a #first-row elem ennek 75%-a, azaz 375px magas.
+*/
+
 .red {
   background-color: red;
+}
+
+
+/*
+Több módszer is létezik arra, hogy áthelyezzük a jobb oldalra, mi a "float" ("lebegtetés") módszert fogjuk használni. Tanuljuk meg, hogyan lehet azt "jobbról belebegtetni".
+*/
+
+.right {
+  float: right;
+}
+
+.black {
+  background-color: black;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+
+.red {
+    background-color: red;
+     height: 100%;
+  width: 3%;
+}
+
+.black {
+    background-color: black;
+     height: 100%;
+  width: 3%;
+}
+
+.yellow {
+    background-color: yellow;
+     height: 100%;
+  width: 3%;
+}
+
+
+#first-element, #second-element, #third-element {
+    
+    
+  width: 300px;
+  height: 300px;
 }
