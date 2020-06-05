@@ -41,7 +41,8 @@ A #first-row tehát a #canvas gyermek eleme, annak pedig megadtad a fix méreté
 
 
 /*
-Több módszer is létezik arra, hogy áthelyezzük a jobb oldalra, mi a "float" ("lebegtetés") módszert fogjuk használni. Tanuljuk meg, hogyan lehet azt "jobbról belebegtetni".
+Több módszer is létezik arra, hogy 
+* áthelyezzük a jobb oldalra, mi a "float" ("lebegtetés") módszert fogjuk használni. Tanuljuk meg, hogyan lehet azt "jobbról belebegtetni".
 */
 
 .right {
