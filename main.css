@@ -83,3 +83,23 @@ Több módszer is létezik arra, hogy áthelyezzük a jobb oldalra, mi a "float"
   width: 300px;
   height: 300px;
 }
+
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+
+#second-divider {
+  height: 3%;
+  width: 100%;
+}
+
+#first-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
+
+#second-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+}
