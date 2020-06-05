@@ -1,0 +1,135 @@
+#canvas {
+  width: 300px;
+  height: 300px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px gray;
+}
+#first-row {
+  height: 75%;
+  width: 100%;
+}
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+.red {
+  background-color: red;
+}
+.right {
+  float: right;
+}
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+.black {
+  background-color: black;
+}
+.right {
+  float: right;
+}
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+.right {
+  float: right;
+}
+#second-divider {
+  height: 6%;
+  width: 100%;
+}
+.black {
+  background-color: black;
+}
+.right {
+  float: right;
+}
+#first-medium-rectangle {
+  height: 47%;
+  width: 100%;
+}
+.right{
+  float: right;
+}
+#second-medium-rectangle {
+  height: 47%;
+  width: 100%;
+}
+.right {
+  float: right;
+}
+#second-row {
+  height: 3%;
+  width: 100%
+}
+.black {
+  background-color: black;
+}
+#third-row {
+  height: 22%;
+  width: 100%;
+}
+#last-column {
+  height: 100%;
+  width: 5%;
+}
+.right {
+  float: right;
+}
+#first-tiny-rectangle {
+  height: 45%;
+  width: 100%;
+}
+#third-divider {
+  height: 10%;
+  width: 100%;
+}
+.black {
+  background-color: black;
+}
+#second-tiny-rectangle {
+  height: 45%;
+  width: 100%;
+}
+.yellow {
+  background-color: yellow;
+}
+#fourth-divider {
+  width: 3%;
+  height: 100%;
+}
+.black {
+  background-color: black;
+}
+.right {
+  float: right;
+}
+#wide-rectangle {
+  width: 67%;
+  height: 100%;
+}
+.right {
+  float: right;
+}
+#fifth-divider {
+  width: 3%;
+  height: 100%;
+}
+.black {
+  background-color: black;
+}
+.right {
+  float: right;
+}
+#small-rectangle {
+  width: 22%;
+  height: 100%;
+}
+.blue {
+  background-color: blue;
+}
+.right {
+  float: right;
+}
